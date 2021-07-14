@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="container">
+        <div class="calc">
+            <div class="title-calc">
+                <div class="title" id="title">calc</div>
+                <div class="theme-calc">
+                    <div class="theme-number" id="theme-number">
+                        <button onclick="bgDefault()">1</button>
+                        <button onclick="bgLite()">2</button>
+                        <button onclick="gbBlue()">3</button>
+                    </div>
+                    <div class="theme">
+                        <div class="theme-text" id="theme-text">THEME</div>
+                        <div class="input-theme-calc" id="input-theme-calc">
+                            <button class="button-theme-calc" id="button-theme-calc"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="result-calc" class="result-calc"></div>
+            <div class="keys-calc" id="keys-calc">
+                <div class="line-key-1"> 
+                    <button class="key-button" id="key-button" onclick="inserir('7')">7</button>
+                    <button class="key-button" id="key-button" onclick="inserir('8')">8</button>
+                    <button class="key-button" id="key-button" onclick="inserir('9')">9</button>
+                    <button class="key-button-del" id="keyDel" onclick="apagar()">del</button>
+                </div>
+                <div class="line-key-2"> 
+                    <button class="key-button" id="key-button" onclick="inserir('4')">4</button>
+                    <button class="key-button" id="key-button" onclick="inserir('5')">5</button>
+                    <button class="key-button" id="key-button" onclick="inserir('6')">6</button>
+                    <button class="key-button" id="key-button" onclick="inserir('+')">+</button>
+                </div>
+                <div class="line-key-3"> 
+                    <button class="key-button" id="key-button" onclick="inserir('1')">1</button>
+                    <button class="key-button" id="key-button" onclick="inserir('2')">2</button>
+                    <button class="key-button" id="key-button" onclick="inserir('3')">3</button>
+                    <button class="key-button" id="key-button" onclick="inserir('-')">-</button>
+                </div>
+                <div class="line-key-4"> 
+                    <button class="key-button" id="key-button" onclick="inserir('.')">.</button>
+                    <button class="key-button" id="key-button" onclick="inserir('0')">0</button>
+                    <button class="key-button" id="key-button" onclick="inserir('/')">/</button>
+                    <button class="key-button" id="key-button" onclick="inserir('*')">x</button>
+                </div>
+                <div class="line-key-5"> 
+                    <button class="key-button-reset" id="keyReset" onclick="limpar()">RESET</button>
+                    <button class="key-button-result" id="keyResult" onclick="calcular()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
