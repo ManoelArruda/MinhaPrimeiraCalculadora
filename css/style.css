@@ -311,14 +311,13 @@
 
    .calc{
        margin-top: -100px;
-       height: 600px;
    }
     .title{
         margin-top: 10px;
         margin-left: 30px;
     }
     .theme, .theme-number{
-        margin-right: 150px;
+        margin-right: 120px;
     }
     .result-calc{
         width: 280px;
@@ -335,4 +334,7 @@
    .key-button-result{
        font-size: 20px;
    }
+    .container{
+        height: 100%
+    }
 }
