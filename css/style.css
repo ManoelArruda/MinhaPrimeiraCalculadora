@@ -307,7 +307,7 @@
     border-top: none;
     cursor: pointer;
 }
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 0px) and (max-width: 768px){
 
    .calc{
        margin-top: -100px;
@@ -318,7 +318,7 @@
         color: #FFFF00;
     }
     .theme, .theme-number{
-        margin-right: 120px;
+        margin-right: 150px;
     }
     .result-calc{
         width: 280px;
