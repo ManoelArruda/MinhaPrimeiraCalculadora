@@ -307,7 +307,7 @@
     border-top: none;
     cursor: pointer;
 }
-@media only screen and (max-width: 375px){
+@media screen and (min-width: 481px) and (max-width: 768px){
 
    .calc{
        margin-top: -100px;
